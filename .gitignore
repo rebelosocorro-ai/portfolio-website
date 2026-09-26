@@ -1,3 +1,29 @@
+# Node / Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js Build
+.next/
+out/
+build/
+dist/
+
+# Environment variables & secrets (never upload)
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+
+# Personal documents, PDFs, resumes & office files (never upload)
+*.pdf
+*.docx
+*.xlsx
+*.doc
+*.ppt
+*.pptx
+
 # Operating system files
 .DS_Store
 Thumbs.db
@@ -9,6 +35,9 @@ desktop.ini
 *.swp
 *.swo
 
-# Temporary / Scratch files
+# Temporary files & logs
 scratch/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
